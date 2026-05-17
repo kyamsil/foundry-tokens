@@ -1,0 +1,4210 @@
+{
+  "folder": "DORVZSEg3WquOu32",
+  "name": "Hammar",
+  "type": "character",
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "pf2e-reactive-token-ring": {
+        "tokenHealthLevel": 1
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Hammar",
+    "displayName": 20,
+    "texture": {
+      "src": "https://raw.githubusercontent.com/kyamsil/foundry-tokens/main/PFS/2011/HammarSubject.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 300,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": "https://raw.githubusercontent.com/kyamsil/foundry-tokens/main/PFS/2011/HammarSubject.webp"
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "temp": 0
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 2
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 1,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "abilities": null,
+    "skills": {
+      "acrobatics": {
+        "rank": 1
+      },
+      "diplomacy": {
+        "rank": 1
+      },
+      "religion": {
+        "rank": 1
+      },
+      "stealth": {
+        "rank": 1
+      },
+      "survival": {
+        "rank": 1
+      }
+    },
+    "pfs": {
+      "playerNumber": 2407882,
+      "characterNumber": 2011,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": 16,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "str",
+            "dex",
+            "con",
+            "cha"
+          ]
+        }
+      }
+    }
+  },
+  "img": "https://raw.githubusercontent.com/kyamsil/foundry-tokens/main/PFS/2011/HammarPortrait.webp",
+  "items": [
+    {
+      "_id": "YconLS9sPq8qkgFJ",
+      "img": "systems/pf2e/icons/ancestries/orc.webp",
+      "name": "Orc",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Orcs are forged in the fires of violence and conflict, often from the moment they are born. As they live lives that are frequently cut brutally short, orcs revel in testing their strength against worthy foes, whether by challenging a higher-ranking member of their community for dominance or raiding a neighboring settlement. Many orcs seek glory as soon as they can walk and carry a blade or club, taming wild beasts or hunting deadly monsters.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.GCxhDyf1ZNlLiDKZ]{Orc}</em></p>"
+        },
+        "rules": [],
+        "slug": "orc",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "humanoid",
+            "orc"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 10,
+        "size": "med",
+        "hands": 2,
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "str"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "con"
+          },
+          "2": {
+            "value": []
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [
+            "common",
+            "orcish"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [
+            "goblin",
+            "jotun",
+            "petran",
+            "sakvroth"
+          ],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "darkvision"
+      },
+      "type": "ancestry",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.ancestries.Item.lSGWXjcbOa6O5fTx",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763785815,
+        "modifiedTime": 1778763889629,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "tFZJZ0g0NmWlHsOs",
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Sailor",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You heard the call of the sea from a young age. Perhaps you signed onto a merchant's vessel, joined the navy, or even fell in with a crew of pirates and scalawags.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Dexterity</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Athletics skill and the Sailing Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.iOY6YfGBaOvMNAor]{Underwater Marauder} skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "sailor",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "dex",
+              "str"
+            ],
+            "selected": "str"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "dex"
+          }
+        },
+        "items": {
+          "78ses": {
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "level": 1,
+            "name": "Underwater Marauder",
+            "uuid": "Compendium.pf2e.feats-srd.Item.iOY6YfGBaOvMNAor"
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "athletics"
+          ],
+          "lore": [
+            "Sailing Lore"
+          ]
+        }
+      },
+      "type": "background",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.backgrounds.Item.Zmwyhsxe4i6rZN75",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763837748,
+        "modifiedTime": 1778763895540,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "folder": "QhHpEbq98ZJAyDiH",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Underwater Marauder",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You've learned to fight underwater. You are not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while in water, and you don't take the usual penalties for using a bludgeoning or slashing melee weapon in water.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Athletics"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "aquatic-combat:not-off-guard"
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "override",
+            "selector": "melee-attack-roll",
+            "slug": "aquatic-combat",
+            "suppress": true
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "underwater-marauder",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "tFZJZ0g0NmWlHsOs"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.iOY6YfGBaOvMNAor",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763837748,
+        "modifiedTime": 1778763837748,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "_id": "NLvDWLk0hytu9RAi",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "4rDC4RxTZ3oSp2z6",
+      "folder": "LTFGaifgeBxZ0LtD",
+      "img": "systems/pf2e/icons/features/ancestry/hold-scarred-orc.webp",
+      "name": "Hold-Scarred Orc",
+      "system": {
+        "ancestry": {
+          "name": "Orc",
+          "slug": "orc",
+          "uuid": "Compendium.pf2e.ancestries.Item.lSGWXjcbOa6O5fTx"
+        },
+        "description": {
+          "value": "<p>You are part of an orc community that participates in ritual scarification or tattooing. The marks on your skin show your exceptional hardiness and vitality. You gain 12 Hit Points from your ancestry instead of 10. You also gain the @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} feat.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.ancestryhp",
+            "value": 12
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg",
+            "flag": "diehard"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "hold-scarred-orc",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "heritage",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.heritages.Item.MTTU2t7x6TjvUDnE",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763847421,
+        "modifiedTime": 1778763847421,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "diehard": {
+              "id": "t6sMaVuy6djj5xZA",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "folder": "68m1OED3fDU3fIfR",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Diehard",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "general",
+        "description": {
+          "value": "<p>It takes more to kill you than most. You die from the @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} condition at dying 5, rather than dying 4.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.attributes.dying.max",
+            "value": 5
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general"
+          ],
+          "otherTags": []
+        },
+        "slug": "diehard",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763847421,
+        "modifiedTime": 1778763932769,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "4rDC4RxTZ3oSp2z6",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "t6sMaVuy6djj5xZA",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "VpbhIuIdVDE1MChK",
+      "img": "systems/pf2e/icons/classes/barbarian.webp",
+      "name": "Barbarian",
+      "system": {
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "attacks": {
+          "advanced": 0,
+          "martial": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          },
+          "simple": 1,
+          "unarmed": 1
+        },
+        "classFeatLevels": {
+          "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "defenses": {
+          "heavy": 0,
+          "light": 1,
+          "medium": 1,
+          "unarmored": 1
+        },
+        "description": {
+          "value": "<p><em>Rage consumes you in battle. You delight in wreaking havoc and using powerful weapons to carve through your enemies, relying on astonishing durability without needing complicated techniques or rigid training. Your rages draw upon a vicious instinct, which you might associate with an animal, a spirit, or some part of yourself. To many barbarians, brute force is a hammer and every problem looks like a nail, whereas others try to hold back the storm of emotions inside them and release their rage only when it matters most.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.lvuutBI9BSCU6cWe]{Barbarian}</p>",
+          "gm": ""
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "hp": 12,
+        "items": {
+          "23vme": {
+            "img": "systems/pf2e/icons/features/classes/greater-juggernaut.webp",
+            "level": 13,
+            "name": "Greater Juggernaut",
+            "uuid": "Compendium.pf2e.classfeatures.Item.TuL0UfqH14MtqYVh"
+          },
+          "3gwvw": {
+            "img": "icons/skills/melee/strike-axe-blood-red.webp",
+            "level": 5,
+            "name": "Brutality",
+            "uuid": "Compendium.pf2e.classfeatures.Item.EEUTd0jAyfwTLzjk"
+          },
+          "7jt77": {
+            "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+            "level": 13,
+            "name": "Medium Armor Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.FCEp9jjxxgRJDJV3"
+          },
+          "FEGkn": {
+            "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+            "level": 9,
+            "name": "Reflex Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+          },
+          "GFrqD": {
+            "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+            "level": 17,
+            "name": "Perception Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13"
+          },
+          "XxkXS": {
+            "img": "icons/magic/air/wind-vortex-swirl-red.webp",
+            "level": 17,
+            "name": "Revitalizing Rage",
+            "uuid": "Compendium.pf2e.classfeatures.Item.qMtyQGUllPdgpzUo"
+          },
+          "cJTLg": {
+            "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+            "level": 13,
+            "name": "Weapon Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.ejP4jVQkS48uKRFz"
+          },
+          "e0sur": {
+            "img": "systems/pf2e/icons/features/classes/indomitable-will.webp",
+            "level": 15,
+            "name": "Indomitable Will",
+            "uuid": "Compendium.pf2e.classfeatures.Item.BZnqKnqKVImjSIFE"
+          },
+          "gfxqm": {
+            "img": "icons/creatures/mammals/bull-horned-blue.webp",
+            "level": 7,
+            "name": "Juggernaut",
+            "uuid": "Compendium.pf2e.classfeatures.Item.OMZs5y16jZRW9KQK"
+          },
+          "iIH8y": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 3,
+            "name": "Furious Footfalls",
+            "uuid": "Compendium.pf2e.classfeatures.Item.fctFBBqWwwwdbgdx"
+          },
+          "ihbgk": {
+            "img": "icons/skills/melee/shield-damaged-broken-orange.webp",
+            "level": 19,
+            "name": "Devastator",
+            "uuid": "Compendium.pf2e.classfeatures.Item.VLiT503OLOM3vaDx"
+          },
+          "njgcl": {
+            "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "level": 15,
+            "name": "Greater Weapon Specialization (Barbarian)",
+            "uuid": "Compendium.pf2e.classfeatures.Item.7JjhxMFo8DMwpGx0"
+          },
+          "qh9xw": {
+            "img": "icons/magic/symbols/mask-yellow-orange.webp",
+            "level": 11,
+            "name": "Mighty Rage",
+            "uuid": "Compendium.pf2e.classfeatures.Item.88Q33X2a0iYPkbzd"
+          },
+          "rGBjw": {
+            "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+            "level": 19,
+            "name": "Armor Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.CGB1TczFhQhdQxml"
+          },
+          "spb04": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 7,
+            "name": "Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+          },
+          "tp5pg": {
+            "img": "icons/skills/social/intimidation-impressing.webp",
+            "level": 9,
+            "name": "Raging Resistance",
+            "uuid": "Compendium.pf2e.classfeatures.Item.ie6xDX9GMEcA2Iuq"
+          },
+          "uhbeo": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Instinct",
+            "uuid": "Compendium.pf2e.classfeatures.Item.dU7xRpg4kFd01hwZ"
+          },
+          "xvavy": {
+            "img": "systems/pf2e/icons/features/classes/rage.webp",
+            "level": 1,
+            "name": "Rage",
+            "uuid": "Compendium.pf2e.classfeatures.Item.WZUCvxqbigXos1L9"
+          },
+          "yyms9": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Quick-Tempered",
+            "uuid": "Compendium.pf2e.classfeatures.Item.04lXNnt73rF3RNc4"
+          }
+        },
+        "keyAbility": {
+          "value": [
+            "str"
+          ],
+          "selected": null
+        },
+        "perception": 2,
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [],
+        "savingThrows": {
+          "fortitude": 2,
+          "reflex": 1,
+          "will": 2
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        },
+        "spellcasting": 0,
+        "trainedSkills": {
+          "additional": 3,
+          "value": [
+            "athletics"
+          ]
+        },
+        "traits": {
+          "rarity": "common",
+          "otherTags": []
+        },
+        "slug": "barbarian",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "class",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classes.Item.YDRiP7uVvr9WRhOI",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763870002,
+        "modifiedTime": 1778763870002,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "icons/magic/symbols/question-stone-yellow.webp",
+      "name": "Instinct",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Your rage wells up from a dominant instinct—one you learned from a tradition or that comes naturally to you. Your instinct gives you an ability, requires you to avoid certain behaviors, grants you increased damage and resistances at higher levels, and allows you to select feats tied to your instinct.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:barbarian-instinct"
+              ]
+            },
+            "flag": "instinct",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Barbarian.Instinct.Prompt",
+            "selection": "Compendium.pf2e.classfeatures.Item.JuKD6k7nDwfO0Ckv"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.system.rulesSelections.instinct}",
+            "flag": "giantInstinct"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.system.ragingResistance",
+            "value": "3 + @actor.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "flags.system.ragingResistance",
+            "predicate": [
+              "feat:unstoppable-juggernaut"
+            ],
+            "priority": 55,
+            "value": "8 + @actor.abilities.con.mod"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "barbarian"
+          ],
+          "otherTags": []
+        },
+        "slug": "instinct",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VpbhIuIdVDE1MChK"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.dU7xRpg4kFd01hwZ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763870002,
+        "modifiedTime": 1778763870002,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "giantInstinct": {
+              "id": "9bFOEuaYzPRXoDcZ",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "XuMkIdJZQVUCtA07",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+      "name": "Rage",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{Rage} action, which lets you fly into a frenzy.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9",
+            "flag": "rage"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "barbarian"
+          ],
+          "otherTags": []
+        },
+        "slug": "rage",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VpbhIuIdVDE1MChK"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.WZUCvxqbigXos1L9",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763870002,
+        "modifiedTime": 1778763870002,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "rage": {
+              "id": "ZyiqfUsBtb6a3zci",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "nCVWWTDOvdt3r3lS",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+      "name": "Quick-Tempered",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.a9PzINjFTO5GvAJN]{Quick-Tempered} free action, which lets you @UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{Rage} at the slightest provocation.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.a9PzINjFTO5GvAJN",
+            "flag": "quickTempered"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "barbarian"
+          ],
+          "otherTags": []
+        },
+        "slug": "quick-tempered",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "VpbhIuIdVDE1MChK"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.04lXNnt73rF3RNc4",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763870002,
+        "modifiedTime": 1778763870002,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "quickTempered": {
+              "id": "9ktq4Nx93yYL3xSJ",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "t5GS2we1t3BoR7f5",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "icons/creatures/magical/humanoid-horned-rider.webp",
+      "name": "Giant Instinct",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Your rage gives you the raw power and size of a giant. This doesn't necessarily mean you revere giants—you might scoff at them or even aspire to slay them! You could instead seem like a giant to other people due to your exceptional strength or larger-than-life emotions and ego.</p>\n<p><strong>Instinct Ability—Titan Mauler</strong> You can use a weapon built for a Large creature if you are Small or Medium (both normally and when raging). If you're not Small or Medium, you can use a weapon built for a creature one size larger than you. You start with one such weapon, which you receive for free. It must be a common melee or ranged weapon, it must have a Price of 9 gp or less (not including the Price adjustment for being a larger weapon), and it must be common or you must otherwise have access to it. It is your personal weapon and has no value if sold unless you later add runes to it, and it has the normal Bulk for a weapon of its size. When wielding a larger weapon in combat, increase your additional damage from Rage from 2 to 6, but you have the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} condition because of the weapon's unwieldy size. You can't remove this clumsy condition or ignore its penalties by any means while wielding the weapon.</p>\n<p><strong>Specialization Ability (7th)</strong> Increase the damage from Rage when using a larger weapon from 6 to 10; if you have greater weapon specialization, increase it from 10 to 18.</p>\n<p><strong>Raging Resistance (9th)</strong> You resist bludgeoning damage and your choice of cold, electricity, or fire, chosen when you gain raging resistance.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": [
+              {
+                "label": "PF2E.TraitCold",
+                "value": "cold"
+              },
+              {
+                "label": "PF2E.TraitElectricity",
+                "value": "electricity"
+              },
+              {
+                "label": "PF2E.TraitFire",
+                "value": "fire"
+              }
+            ],
+            "flag": "energy",
+            "key": "ChoiceSet",
+            "predicate": [
+              "feature:giant-instinct",
+              "class:barbarian"
+            ],
+            "prompt": "PF2E.SpecificRule.Barbarian.Giant.Prompt",
+            "selection": "fire"
+          },
+          {
+            "key": "Resistance",
+            "predicate": [
+              "self:effect:rage",
+              "feature:raging-resistance"
+            ],
+            "type": [
+              "{item|flags.system.rulesSelections.energy}",
+              "bludgeoning"
+            ],
+            "value": "@actor.flags.system.ragingResistance"
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "upgrade",
+            "predicate": [
+              {
+                "or": [
+                  "class:barbarian",
+                  "feat:instinct-ability"
+                ]
+              },
+              "item:oversized"
+            ],
+            "selector": "strike-damage",
+            "slug": "rage",
+            "value": 6
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "upgrade",
+            "predicate": [
+              "class:barbarian",
+              {
+                "gte": [
+                  "self:level",
+                  7
+                ]
+              },
+              "item:oversized"
+            ],
+            "selector": "strike-damage",
+            "slug": "rage",
+            "value": 10
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "upgrade",
+            "predicate": [
+              "class:barbarian",
+              "feature:greater-weapon-specialization",
+              "item:oversized"
+            ],
+            "selector": "strike-damage",
+            "slug": "rage",
+            "value": 18
+          }
+        ],
+        "traits": {
+          "otherTags": [
+            "barbarian-instinct"
+          ],
+          "rarity": "common",
+          "value": [
+            "barbarian"
+          ]
+        },
+        "slug": "giant-instinct",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.JuKD6k7nDwfO0Ckv",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763870002,
+        "modifiedTime": 1778763932769,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "XuMkIdJZQVUCtA07",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "9bFOEuaYzPRXoDcZ",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "folder": "mApYr7csdxE76Pm7",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Rage",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or raging.</p><hr /><p>You tap into your inner fury and begin raging. You gain a number of temporary Hit Points equal to your level plus your Constitution modifier. While you are raging:</p><ul><li>You deal 2 additional damage on melee Strikes. This additional damage is halved if your weapon or unarmed attack is agile.</li><li><p>You can't use actions with the concentrate trait unless they also have the rage trait. You can @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} while raging.</p></li></ul><p>Rage lasts for 1 minute, until you fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or until the encounter ends, whichever comes first. You can't voluntarily stop raging. When you stop raging, you lose any remaining temporary Hit Points from Rage, and can't gain temporary Hit Points from using the Rage action again for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.MaepXeSHiMoWDm7u]{Effect: Rage Temporary Hit Points Immunity}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "predicate": [
+              "self:effect:rage",
+              {
+                "or": [
+                  {
+                    "not": "item:ranged"
+                  },
+                  {
+                    "and": [
+                      "feat:raging-thrower",
+                      "item:thrown"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selector": "strike-damage",
+            "slug": "rage",
+            "value": 2
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "multiply",
+            "predicate": [
+              "item:trait:agile"
+            ],
+            "priority": 95,
+            "selector": "strike-damage",
+            "slug": "rage",
+            "value": 0.5
+          }
+        ],
+        "selfEffect": {
+          "name": "Effect: Rage",
+          "uuid": "Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr"
+        },
+        "traits": {
+          "value": [
+            "barbarian",
+            "concentrate",
+            "emotion",
+            "mental"
+          ],
+          "otherTags": []
+        },
+        "slug": "rage",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763870002,
+        "modifiedTime": 1778763870002,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "nCVWWTDOvdt3r3lS",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "ZyiqfUsBtb6a3zci",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "folder": "mApYr7csdxE76Pm7",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Quick-Tempered",
+      "system": {
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p><strong>Trigger</strong> You roll initiative.</p>\n<p><strong>Requirements</strong> You are not @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} or wearing heavy armor.</p><hr /><p>So long as you are able to move freely, your fury is instinctive and instantaneous. You @UUID[Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{Rage}.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "predicate": [
+              {
+                "not": "condition:encumbered"
+              },
+              {
+                "or": [
+                  "feat:invulnerable-rager",
+                  {
+                    "not": "armor:category:heavy"
+                  }
+                ]
+              }
+            ],
+            "selector": "initiative",
+            "text": "{item|description}\n@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Effect: Rage}\n@UUID[Compendium.pf2e.feat-effects.Item.MaepXeSHiMoWDm7u]{Effect: Rage Temporary Hit Points Immunity}",
+            "title": "{item|name} <span class=\"action-glyph\">F</span>"
+          }
+        ],
+        "selfEffect": {
+          "name": "Effect: Rage",
+          "uuid": "Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr"
+        },
+        "traits": {
+          "value": [
+            "barbarian"
+          ],
+          "otherTags": []
+        },
+        "slug": "quick-tempered",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.a9PzINjFTO5GvAJN",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763870002,
+        "modifiedTime": 1778763870002,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "t5GS2we1t3BoR7f5",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "9ktq4Nx93yYL3xSJ",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "l81RZCS0fXQpxSMY",
+      "folder": "QW4FChLa1LOdbE1j",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Hold Mark (Empty Hand)",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>You bear scars or tattoos enhanced by the mark of your community's prowess. When you select this feat, choose one of the options from the below table. You are trained in the listed skill and gain a +1 status bonus to saves against spells from the listed tradition. You gain a large brand or tattoo in the shape of the chosen emblem or a similar concept (for example, the Burning Sun could be a torch, sun, volcano, or other fiery symbol, while the Empty Hand could be a fist or claw).</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>Hold Mark Emblem</th>\n<th>Skill</th>\n<th>Tradition</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Burning Sun</td>\n<td>Diplomacy</td>\n<td>Arcane</td>\n</tr>\n<tr>\n<td>Death's Head</td>\n<td>Survival</td>\n<td>Primal</td>\n</tr>\n<tr>\n<td>Defiled Corpse</td>\n<td>Religion</td>\n<td>Divine</td>\n</tr>\n<tr>\n<td>Empty Hand</td>\n<td>Intimidation</td>\n<td>Occult</td>\n</tr>\n</tbody>\n</table>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.SpecificRule.Orc.HoldMark.BurningSun",
+                "value": "burning-sun"
+              },
+              {
+                "label": "PF2E.SpecificRule.Orc.HoldMark.DeathsHead",
+                "value": "deaths-head"
+              },
+              {
+                "label": "PF2E.SpecificRule.Orc.HoldMark.DefiledCorpse",
+                "value": "defiled-corpse"
+              },
+              {
+                "label": "PF2E.SpecificRule.Orc.HoldMark.EmptyHand",
+                "value": "empty-hand"
+              }
+            ],
+            "flag": "holdMark",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Orc.HoldMark.Prompt",
+            "rollOption": "hold-mark",
+            "selection": "empty-hand"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.diplomacy.rank",
+            "predicate": [
+              "hold-mark:burning-sun"
+            ],
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.survival.rank",
+            "predicate": [
+              "hold-mark:deaths-head"
+            ],
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.religion.rank",
+            "predicate": [
+              "hold-mark:defiled-corpse"
+            ],
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.intimidation.rank",
+            "predicate": [
+              "hold-mark:empty-hand"
+            ],
+            "value": 1
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "item:type:spell",
+              {
+                "or": [
+                  {
+                    "and": [
+                      "arcane",
+                      "hold-mark:burning-sun"
+                    ]
+                  },
+                  {
+                    "and": [
+                      "hold-mark:deaths-head",
+                      "primal"
+                    ]
+                  },
+                  {
+                    "and": [
+                      "divine",
+                      "hold-mark:defiled-corpse"
+                    ]
+                  },
+                  {
+                    "and": [
+                      "hold-mark:empty-hand",
+                      "occult"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "orc"
+          ],
+          "otherTags": []
+        },
+        "slug": "hold-mark",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-1"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.aQNsD2t0Tb4vToA4",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763932669,
+        "modifiedTime": 1778763956317,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "M5CJnkp4zvyEvJxx",
+      "folder": "FTKVfX0Vtqfac5CL",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Raging Intimidation",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>Your fury fills your foes with fear. While you are raging, your @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} and @UUID[Compendium.pf2e.feats-srd.Item.mZttsiWl1ql5NvrH]{Scare to Death} actions (from the Intimidation skill and an Intimidation skill feat, respectively) gain the rage trait, allowing you to use them while raging. As soon as you meet the prerequisites for the skill feats @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} and Scare to Death, you gain these feats.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "flag": "intimidatingGlare",
+            "key": "GrantItem",
+            "predicate": [
+              {
+                "gte": [
+                  "skill:intimidation:rank",
+                  1
+                ]
+              }
+            ],
+            "reevaluateOnUpdate": true,
+            "uuid": "Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce"
+          },
+          {
+            "flag": "scareToDeath",
+            "key": "GrantItem",
+            "predicate": [
+              "skill:intimidation:rank:4"
+            ],
+            "reevaluateOnUpdate": true,
+            "uuid": "Compendium.pf2e.feats-srd.Item.mZttsiWl1ql5NvrH"
+          },
+          {
+            "itemType": "action",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:slug:demoralize",
+              "self:effect:rage"
+            ],
+            "property": "traits",
+            "value": "rage"
+          },
+          {
+            "itemType": "feat",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:slug:scare-to-death",
+              "self:effect:rage"
+            ],
+            "property": "traits",
+            "value": "rage"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "barbarian"
+          ],
+          "otherTags": []
+        },
+        "slug": "raging-intimidation",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-1"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.XseJI9XhKNtZN8pv",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763971655,
+        "modifiedTime": 1778763971655,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "intimidatingGlare": {
+              "id": "TzFRvoyU7MpUP2bh",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "folder": "QhHpEbq98ZJAyDiH",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Intimidating Glare",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You can @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} with a mere glare. When you do, Demoralize loses the auditory trait and gains the visual trait, and you don't take a penalty if the creature doesn't understand your language.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Intimidation"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "intimidating-glare",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778763971655,
+        "modifiedTime": 1778763971655,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "M5CJnkp4zvyEvJxx",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "TzFRvoyU7MpUP2bh",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "type": "lore",
+      "name": "Pathfinder Society Lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "DOjTU8FQ8fZOWPeR",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764036555,
+        "modifiedTime": 1778764053890,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "type": "lore",
+      "name": "Sailing Lore",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "UVdainWKCvgl4xP7",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764055570,
+        "modifiedTime": 1778764068693,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "bEQAOvI3X7BNnfEk",
+      "folder": "9LrnQraoYxLCGBdQ",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Fighter Dedication",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>You become trained in martial weapons. You become trained in your choice of Acrobatics or Athletics; if you are already trained in both of these skills, you instead become trained in a skill of your choice. You become trained in fighter class DC.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.inxtk4rYj2UZaytg]{Fighter}</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Strength +2"
+            },
+            {
+              "value": "Dexterity +2"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "flags.system.fighterDedicationCount",
+            "value": 1
+          },
+          {
+            "adjustName": false,
+            "choices": [
+              {
+                "label": "PF2E.AbilityStr",
+                "value": "str"
+              },
+              {
+                "label": "PF2E.AbilityDex",
+                "value": "dex"
+              }
+            ],
+            "flag": "attribute",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore",
+            "selection": "str"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.proficiencies.classDCs.fighter.attribute",
+            "value": "{item|flags.system.rulesSelections.attribute}"
+          }
+        ],
+        "subfeatures": {
+          "proficiencies": {
+            "fighter": {
+              "attribute": null,
+              "rank": 1
+            },
+            "martial": {
+              "rank": 1,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "archetype",
+            "dedication",
+            "multiclass"
+          ],
+          "otherTags": []
+        },
+        "slug": "fighter-dedication",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "location": "class-2"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.mvNa9KfQooHYEXoA",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764113753,
+        "modifiedTime": 1778764113753,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "DkKPXwJbDrH92AMM",
+      "folder": "QhHpEbq98ZJAyDiH",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Titan Wrestler",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} creatures up to two sizes larger than you, or up to three sizes larger than you if you're legendary in Athletics.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 2
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Athletics"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "titan-wrestler",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "skill-2"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764142730,
+        "modifiedTime": 1778764142730,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+      "name": "Breastplate",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Though referred to as a breastplate, this type of armor consists of several pieces of plate or @UUID[Compendium.pf2e.equipment-srd.Item.pRoikbRo5HFW6YUB]{Half Plate} armor that protect the torso, chest, neck, and sometimes the hips and lower legs. It strategically grants some of the protection of plate while allowing greater flexibility and speed.</p>"
+        },
+        "rules": [],
+        "slug": "breastplate",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "breastplate",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 8
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "medium",
+        "group": "plate",
+        "acBonus": 4,
+        "strength": 3,
+        "dexCap": 1,
+        "checkPenalty": -2,
+        "speedPenalty": -5,
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": []
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.r0ifJfoz8aqf0mwk",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764171855,
+        "modifiedTime": 1778764175122,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "5jbYdmdeZbZJ0uw3",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "icons/weapons/hammers/hammer-double-steel-embossed.webp",
+      "name": "Maul",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Mauls are massive warhammers that must be swung with two hands.</p>"
+        },
+        "rules": [],
+        "slug": "maul",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "shove"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "maul",
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 2
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Maul",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "martial",
+        "group": "hammer",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d12",
+          "damageType": "bludgeoning",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "ammo": null,
+        "reload": {
+          "value": null
+        },
+        "grade": null,
+        "runes": {
+          "potency": 1,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mlrmkpOlwpnGkw4I",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764196689,
+        "modifiedTime": 1778764471732,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "76RZUdFNzFTiwIMS",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "EXwAvUR6zExrUgge",
+      "img": "icons/containers/bags/pack-leather-white-tan.webp",
+      "name": "Backpack",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A backpack holds up to 4 Bulk of items and the first 2 Bulk of these items don't count against your Bulk limits. If you're carrying or stowing the pack rather than wearing it on your back, its Bulk is light instead of negligible</p>"
+        },
+        "rules": [],
+        "slug": "backpack",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0,
+          "heldOrStowed": 0.1,
+          "capacity": 4,
+          "ignored": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "collapsed": false,
+        "stowing": true,
+        "usage": {
+          "value": "wornbackpack"
+        }
+      },
+      "type": "backpack",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.3lgwjrFEsQVKzhh7",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764241945,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "UWqFmbj92t7kH284",
+      "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+      "name": "Rope",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>50 feet of rope.</p>"
+        },
+        "rules": [],
+        "slug": "rope",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fyYnQf1NAx9fWFaS",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "1pjBW7abFzbmTcv7",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/waterskin.webp",
+      "name": "Waterskin",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When it's full, a waterskin contains roughly 1 day's worth of water for a Small or Medium creature.</p>"
+        },
+        "rules": [],
+        "slug": "waterskin",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.VnPh324pKwd2ZB66",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "LUUNqBhdBc5Hp1qd",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/chalk.webp",
+      "name": "Chalk",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "chalk",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 10,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 1
+          },
+          "per": 10
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.xShIDyydOMkGvGNb",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "a8b75xKTIAjusgCC",
+      "img": "icons/commodities/stone/geode-raw-tan.webp",
+      "name": "Flint and Steel",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Flint and steel are useful in creating a fire if you have the time to catch a spark, though using them is typically too time-consuming to be practical during an encounter. Even in ideal conditions, using flint and steel to light a flame requires using at least 3 actions, and often significantly longer.</p>"
+        },
+        "rules": [],
+        "slug": "flint-and-steel",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.UlIxxLm71UdRgCFE",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "2d3uUO4qbK10HRd3",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/rations.webp",
+      "name": "Rations",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "rations",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 4
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "other",
+        "uses": {
+          "value": 7,
+          "max": 7,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.L9ZV076913otGtiB",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "2CVOiCL6lz8SnwU3",
+      "img": "icons/sundries/lights/torch-brown.webp",
+      "name": "Torch",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A torch sheds bright light in a 20-foot radius (and dim light to the next 20 feet) for 1 hour. It can be used as an improvised weapon that deals 1d4 bludgeoning damage plus 1 fire damage.</p>"
+        },
+        "rules": [
+          {
+            "key": "TokenLight",
+            "predicate": [
+              "lit-torch"
+            ],
+            "value": {
+              "alpha": 0.3,
+              "animation": {
+                "intensity": 1,
+                "speed": 2,
+                "type": "flame"
+              },
+              "attenuation": 0.4,
+              "bright": 20,
+              "color": "#ffae3d",
+              "dim": 40,
+              "shadows": 0.2
+            }
+          },
+          {
+            "category": "simple",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d4"
+              }
+            },
+            "key": "Strike",
+            "otherTags": [
+              "improvised"
+            ],
+            "predicate": [
+              {
+                "not": "lit-torch"
+              }
+            ]
+          },
+          {
+            "category": "simple",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d4"
+              }
+            },
+            "img": "icons/sundries/lights/torch-brown-lit.webp",
+            "key": "Strike",
+            "otherTags": [
+              "improvised"
+            ],
+            "predicate": [
+              "lit-torch"
+            ]
+          },
+          {
+            "damageType": "fire",
+            "key": "FlatModifier",
+            "predicate": [
+              "lit-torch"
+            ],
+            "selector": "{item|_id}-damage",
+            "value": 1
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.LitTorch",
+            "option": "lit-torch",
+            "toggleable": true
+          },
+          {
+            "key": "TokenEffectIcon",
+            "predicate": [
+              "lit-torch"
+            ],
+            "value": "icons/sundries/lights/torch-brown-lit.webp"
+          }
+        ],
+        "slug": "torch",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 5,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.8Jdw4yAzWYylGePS",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "kPs8YRRkJ4xudPgN",
+      "img": "icons/containers/ammunition/quiver-simple-brown.webp",
+      "name": "Bedroll",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A rolled up bed.</p>"
+        },
+        "rules": [],
+        "slug": "bedroll",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fagzYdmfYyMQ6J77",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "GdlFJh8pxgGWK4Kj",
+      "img": "icons/sundries/survival/soap.webp",
+      "name": "Soap",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Bar of soap.</p>"
+        },
+        "rules": [],
+        "slug": "soap",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": "EXwAvUR6zExrUgge",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.81aHsD27HFGnq1Nt",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764238764,
+        "modifiedTime": 1778764238764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/crowbar.webp",
+      "name": "Crowbar",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When Forcing Open an object that doesn't have an easy grip, a crowbar makes it easier to gain the necessary leverage. Without a crowbar, prying something open takes a -2 item penalty to the Athletics check to Force Open.</p>"
+        },
+        "rules": [
+          {
+            "key": "AdjustModifier",
+            "selector": "athletics",
+            "slug": "no-crowbar",
+            "suppress": true
+          }
+        ],
+        "slug": "crowbar",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.44F1mfJei4GY8f2X",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764255000,
+        "modifiedTime": 1778764255000,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "4zYojs9LicXbiLpR",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "icons/containers/bags/pouch-simple-leather-tan.webp",
+      "name": "Climbing Kit",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This satchel includes 50 feet of rope, pulleys, a dozen pitons, a hammer, a grappling hook, and one set of crampons. Climbing kits allow you to attach yourself to the wall you're Climbing, moving half as quickly as usual (minimum 5 feet) but letting you attempt a @Check[flat|dc:5] whenever you critically fail to prevent a fall. A single kit has only enough materials for one climber; each climber needs their own kit. If you wear your climbing kit, you can access it as part of a Climb action.</p>"
+        },
+        "rules": [],
+        "slug": "climbing-kit",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.9UJbMaglf35GVzaZ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764326500,
+        "modifiedTime": 1778764326500,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "G2NyRMfwGJ8SBgZ6",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "94OLqJmt23OCdWmM",
+      "img": "systems/pf2e/icons/pathfinder-society/pfs-glyph.webp",
+      "name": "Wayfinder",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "pfsboon",
+        "description": {
+          "value": "<p><strong>Cost</strong>: 0 AcP</p><hr /><p>To guide your path, your faction has secured a wayfinder for you to carry on your journeys and serve as a badge of office in the Pathfinder Society. This wayfinder has an effective sale price of 0 gp.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Played 2 sessions"
+            }
+          ]
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "wayfinder",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.pathfinder-society-boons.Item.SxUBWlQj6BT5g4Rw",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764447764,
+        "modifiedTime": 1778764447764,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/wayfinder.webp",
+      "name": "Wayfinder",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Access</strong> member of the Pathfinder Society</p>\n<hr />\n<p>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called <em>aeon stones</em>. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. A <em>wayfinder</em> functions as a compass.</p>\n<p>An indentation in the middle of the <em>wayfinder</em> can hold a single <em>aeon stone</em>. Placing an <em>aeon stone</em> in this indentation provides you all the benefits of having the <em>aeon stone</em> orbiting your head, but it protects the stone from being noticed or stolen as easily. You invest a <em>wayfinder</em> and the <em>aeon stone</em> within it simultaneously, and they count as only one item toward your investiture limit. An invested <em>aeon stone</em> slotted in a <em>wayfinder</em> also grants its resonant power.</p>\n<p>If you have more than one <em>wayfinder</em> with an invested <em>aeon stone</em> on your person at a given time, destructive interference from their resonance prevents you from gaining benefits from any of them. You can still benefit from additional <em>aeon stones</em> orbiting your head, just not in <em>wayfinders</em>.</p>\n<p><strong>Activate—Light</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p><strong>Effect</strong> The <em>wayfinder</em> is targeted by a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} spell.</p>"
+        },
+        "rules": [
+          {
+            "key": "AdjustModifier",
+            "requiresEquipped": false,
+            "selector": "survival",
+            "slug": "no-compass",
+            "suppress": true
+          }
+        ],
+        "slug": "wayfinder",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "invested",
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 28
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": true,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "worn"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764457812,
+        "modifiedTime": 1778764460761,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "vEdYW1243Lex3zsQ",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "type": "action",
+      "system": {
+        "description": {
+          "value": "<p>Granted by @UUID[Actor.X0E8TA3yg4dVIQRf.Item.vEdYW1243Lex3zsQ]{Wayfinder}</p><p><strong>Activate—Light</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p><strong>Effect</strong> The <em>wayfinder</em> is targeted by a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} spell.</p>",
+          "gm": ""
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "invested"
+          ],
+          "otherTags": []
+        },
+        "actions": {
+          "value": 1
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "slug": "activation-light",
+        "selfEffect": {
+          "uuid": "Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ",
+          "name": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "category": null
+      },
+      "name": "Activation: Light",
+      "flags": {
+        "pf2e-item-activations": {
+          "grantedBy": {
+            "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/wayfinder.webp",
+            "name": "Wayfinder",
+            "system": {
+              "description": {
+                "gm": "",
+                "value": "<p><strong>Access</strong> member of the Pathfinder Society</p>\n<hr />\n<p>This compact compass repurposes ancient technology to draw fantastic powers from the mysterious magical items called <em>aeon stones</em>. It serves as a badge of office for agents of the Pathfinder Society and as a status symbol among adventurers of any stripe. A <em>wayfinder</em> functions as a compass.</p>\n<p>An indentation in the middle of the <em>wayfinder</em> can hold a single <em>aeon stone</em>. Placing an <em>aeon stone</em> in this indentation provides you all the benefits of having the <em>aeon stone</em> orbiting your head, but it protects the stone from being noticed or stolen as easily. You invest a <em>wayfinder</em> and the <em>aeon stone</em> within it simultaneously, and they count as only one item toward your investiture limit. An invested <em>aeon stone</em> slotted in a <em>wayfinder</em> also grants its resonant power.</p>\n<p>If you have more than one <em>wayfinder</em> with an invested <em>aeon stone</em> on your person at a given time, destructive interference from their resonance prevents you from gaining benefits from any of them. You can still benefit from additional <em>aeon stones</em> orbiting your head, just not in <em>wayfinders</em>.</p>\n<p><strong>Activate—Light</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p><strong>Effect</strong> The <em>wayfinder</em> is targeted by a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} spell.</p>"
+              },
+              "rules": [
+                {
+                  "key": "AdjustModifier",
+                  "requiresEquipped": false,
+                  "selector": "survival",
+                  "slug": "no-compass",
+                  "suppress": true
+                }
+              ],
+              "slug": "wayfinder",
+              "_migration": {
+                "version": 0.955,
+                "lastMigration": null,
+                "previous": null
+              },
+              "traits": {
+                "otherTags": [],
+                "value": [
+                  "invested",
+                  "magical"
+                ],
+                "rarity": "uncommon"
+              },
+              "publication": {
+                "title": "Pathfinder GM Core",
+                "authors": "",
+                "license": "ORC",
+                "remaster": true
+              },
+              "level": {
+                "value": 2
+              },
+              "quantity": 1,
+              "baseItem": null,
+              "bulk": {
+                "value": 0
+              },
+              "hp": {
+                "value": 0,
+                "max": 0
+              },
+              "hardness": 0,
+              "price": {
+                "value": {
+                  "gp": 28
+                }
+              },
+              "equipped": {
+                "carryType": "worn",
+                "invested": null
+              },
+              "containerId": null,
+              "size": "med",
+              "material": {
+                "type": null,
+                "grade": null
+              },
+              "identification": {
+                "status": "identified",
+                "unidentified": {
+                  "name": "",
+                  "img": "",
+                  "data": {
+                    "description": {
+                      "value": ""
+                    }
+                  }
+                }
+              },
+              "usage": {
+                "value": "worn"
+              },
+              "subitems": []
+            },
+            "type": "equipment",
+            "_stats": {
+              "compendiumSource": "Compendium.pf2e.equipment-srd.Item.gbwr57aT9ou8yKWT",
+              "duplicateSource": null,
+              "exportSource": null,
+              "coreVersion": "13.351",
+              "systemId": "pf2e",
+              "systemVersion": "7.12.2",
+              "createdTime": 1778764457812,
+              "modifiedTime": 1778764457812,
+              "lastModifiedBy": "PYuIxszatPPrBRlb"
+            },
+            "effects": [],
+            "folder": null,
+            "sort": 0,
+            "ownership": {
+              "default": 0,
+              "PYuIxszatPPrBRlb": 3
+            },
+            "flags": {},
+            "_id": "vEdYW1243Lex3zsQ"
+          },
+          "enabled": true
+        }
+      },
+      "effects": [],
+      "_id": "2G09sHuqL3zuTBdm",
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778764457952,
+        "modifiedTime": 1778764460777,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "system": {
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "category": "coin",
+        "containerId": null,
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 1
+          },
+          "per": 1
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "quantity": 29,
+        "rules": [],
+        "size": "med",
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": null
+        },
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778767371428,
+        "modifiedTime": 1778768233384,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "PMYY0MHrWMVtyp9v",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+      "name": "Silver Pieces",
+      "system": {
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "category": "coin",
+        "containerId": null,
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 1
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "quantity": 12,
+        "rules": [],
+        "size": "med",
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "silver-pieces",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": null
+        },
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5Ew82vBF9YfaiY9f",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778767559465,
+        "modifiedTime": 1778767559465,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "9v09leALqgezGVoZ",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/currency/copper-pieces.webp",
+      "name": "Copper Pieces",
+      "system": {
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "category": "coin",
+        "containerId": null,
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "cp": 1
+          },
+          "per": 1
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "quantity": 8,
+        "rules": [],
+        "size": "med",
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "copper-pieces",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": null
+        },
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.lzJ8AVhRcbFul5fh",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "createdTime": 1778768227382,
+        "modifiedTime": 1778768227382,
+        "lastModifiedBy": "PYuIxszatPPrBRlb"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "QwrgiNWhJ5q1gTpv",
+      "ownership": {
+        "default": 0
+      }
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "showBasicUnarmed": true,
+      "sheetTabs": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "pfsrepo",
+      "uuid": "Actor.X0E8TA3yg4dVIQRf",
+      "coreVersion": "13.351",
+      "systemId": "pf2e",
+      "systemVersion": "7.12.2"
+    },
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1764869285361,
+    "modifiedTime": 1778976689805,
+    "lastModifiedBy": "PYuIxszatPPrBRlb"
+  },
+  "ownership": {
+    "default": 1
+  }
+}
